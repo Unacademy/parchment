@@ -1,5 +1,5 @@
 /.build
-/dist
+/test
 /node_modules
 
 *.log
