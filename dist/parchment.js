@@ -1717,7 +1717,7 @@ var TextBlot = /** @class */ (function (_super) {
         if (!force) {
             if (index === 0)
                 return this;
-            if (index >= this.length())
+            if (index === this.length())
                 return this.next;
         }
         var after = Registry.create(this.domNode.splitText(index));
